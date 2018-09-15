@@ -1,0 +1,25 @@
+# Geometry Program
+
+ 
+def Interface():
+    print ("Welcome to my Geometry Program")
+    print ("Remember to add a space before you type help or program")
+    answer = input("Type Help or Program and hit 'Enter'.").lower()
+    if answer == " Help" or answer == " help" or answer == "Help" or answer == "help":
+        print ("Prototype")
+        
+    elif answer == " Program" or answer == " program" or answer == "Program" or answer == "program":
+        program = input("Please type the program you'd like to use")
+        if program == "Angles" or program == "angles" or " Angles" or " angles":
+
+    else:
+        print ("You didn't type either! Try again.")
+        Interface()
+
+Interface()
+
+def Angles():
+    print ("You are now using the Angles Program")
+
+
+Angles()
